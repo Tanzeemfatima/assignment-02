@@ -1,9 +1,11 @@
 * {
-    margin: 0;
+    margin: auto;
 }
 
+/* ---------------header style start------------ */
 header {
     background-color: antiquewhite;
+    width: 100%;
 }
 
 nav {
@@ -51,6 +53,48 @@ ul>li {
 }
 
 .banner-img {
-    width: 50px;
-    margin: 0 300px 0 300px;
+    width: 50%;
+    padding: 20px 10px;
+    margin-left: 500px;
+}
+
+/* ---------------header style close--------------- */
+
+/* --------- responsive for mobile device---------------- */
+
+@media only screen and (max-width:688px) {
+
+    header {
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
+/* -------------------responsive part 1 close------------- */
+
+/* --------------feature section styles start------------ */
+
+.feature-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+
+}
+
+.sp-1 {
+    color: dimgray;
+
+}
+
+.sp-2 {
+    color: orange;
+
+}
+
+
+.feature-imgs {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 10px;
 }
