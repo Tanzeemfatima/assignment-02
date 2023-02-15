@@ -252,6 +252,42 @@ main {
 }
 
 /* --------sponsor part style close------ */
+/* bonus part atart */
+
+.social-media {
+    align-items: center;
+}
+
+.send-title {
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px lightblue;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.send-title:hover {
+    transform: scale(2) ease 5s;
+    background-color: orange;
+}
+
+form {
+    padding: 5px;
+    margin-left: 600px;
+    margin-bottom: 20px;
+}
+
+.email-btn {
+    background-color: darkgray;
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+}
+
+/* bonus part close */
+
+
 /* ----footer part style start------- */
 footer {
     height: 50px;
