@@ -40,6 +40,7 @@ ul>li {
 }
 
 .banner-des {
+    font-size: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -82,12 +83,28 @@ ul>li {
 
 }
 
+.feature-title {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.feature-des {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .sp-1 {
     color: dimgray;
 
 }
 
 .sp-2 {
+    font-weight: bolder;
+}
+
+.sp-3 {
     color: orange;
 
 }
@@ -97,4 +114,62 @@ ul>li {
     display: grid;
     grid-template-columns: repeat(2, 0fr);
     grid-gap: 10px;
+}
+
+/* --------------feature section styles close------------ */
+
+/* -------------feature details style start---------- */
+
+
+
+
+
+
+/* -----------feature detailss styles close--------- */
+.feature-details {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.feature-title-2 {
+    font-size: 30px;
+    border-left: 2px solid orange;
+    padding: 10px;
+
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+    width: 100%;
+
+
+
+}
+
+.box {
+    width: 500px;
+    height: 80px;
+    border: grey;
+    background-color: #ffffff;
+    padding: 30px;
+    gap: 10px;
+    box-shadow: 2px 1px 5px lightslategrey;
+
+}
+
+.box-title {
+    margin-top: 5px;
+}
+
+.box-details {
+    margin-top: 5px;
+}
+
+.architect-img {
+    width: 35%;
+    height: 700px;
 }
