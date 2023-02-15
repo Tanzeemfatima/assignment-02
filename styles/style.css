@@ -175,13 +175,15 @@ ul>li {
 }
 
 .feature-btn {
-    font-size: 15px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: bolder;
     background-color: orange;
     color: antiquewhite;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     padding: 20px;
-    margin-left: -600px;
+    margin-left: -700px;
     margin-top: 700px;
 
 }
