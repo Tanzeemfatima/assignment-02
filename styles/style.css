@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.nav-title {
+    font-weight: bold;
+    font size: 24px;
+}
+
+ul {
+    display: flex;
+}
+
+ul>li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.banner-info {
+    width: 100%;
+    text-align: center;
+    padding: 25px 25px;
+}
+
+.banner-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.banner-des {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: orange;
+    color: antiquewhite;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+}
+
+.banner-img {
+    width: 50px;
+    margin: 0 300px 0 300px;
+}
