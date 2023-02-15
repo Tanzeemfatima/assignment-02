@@ -173,3 +173,15 @@ ul>li {
     width: 35%;
     height: 700px;
 }
+
+.feature-btn {
+    font-size: 15px;
+    background-color: orange;
+    color: antiquewhite;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    margin-left: -600px;
+    margin-top: 700px;
+
+}
