@@ -77,7 +77,8 @@ ul>li {
 /* --------------feature section styles start------------ */
 
 .feature-section {
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
     margin-bottom: 100px;
     display: flex;
 
@@ -121,11 +122,6 @@ ul>li {
 /* -------------feature details style start---------- */
 
 
-
-
-
-
-/* -----------feature detailss styles close--------- */
 .feature-details {
     display: flex;
     margin-left: 150px;
@@ -187,3 +183,42 @@ ul>li {
     margin-top: 700px;
 
 }
+
+/* -----------feature detailss styles close--------- */
+
+
+/* ---facts part style start------ */
+
+.fact-info {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.fact-title {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.fact-details {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.fact-boxes {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.fact-box {
+    border: 2px solid orange;
+    padding: 20px;
+}
+
+.fact-box:hover {
+    transform: rotate(30deg);
+}
+
+/* ---facts part style close------ */
