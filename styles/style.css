@@ -388,7 +388,7 @@ form {
 
     .email-btn {
         display: block;
-        margin-left: 5px;
+        margin-left: 10px;
         margin-bottom: 20px;
     }
 
@@ -411,7 +411,7 @@ footer {
 /* /* -------------responsive for mobile device--------  */
 @media only screen and (max-width: 688px) {
     footer {
-        width: 100%;
+        width: 50%;
         margin-top: 100px;
     }
 
