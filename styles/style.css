@@ -35,6 +35,9 @@ ul>li {
 }
 
 .banner-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -120,6 +123,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 0fr);
     grid-gap: 10px;
+    border-radius: 8px;
 }
 
 /* --------------feature section styles close------------ */
@@ -249,7 +253,9 @@ main {
 .sponsor-boxes {
     display: flex;
     justify-content: space-around;
+
 }
+
 
 /* --------sponsor part style close------ */
 /* bonus part atart */
